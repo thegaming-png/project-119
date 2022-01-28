@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3:ital@0;1&display=swap');
+#label,
+#confidence {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+}
+
+canvas {
+    border: 2px solid black;
+    border-radius: 10px;
+    animation-name: canvasAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 300px;
+}
+
+@keyframes canvasAnimation {
+    from {
+        box-shadow: 1px 1px 1px 1px gold;
+    }
+    to {
+        box-shadow: 1px 1px 1px 5px white;
+    }
+}
+
+body {
+    background-color: #fbd139;
+}
+
+#Heading {
+    color: rgb(38, 0, 255);
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#Score{
+    float: left;
+}
+
+#Timer{
+    float: right;
+}
